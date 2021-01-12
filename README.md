@@ -37,6 +37,6 @@ Prepare the following secrets
 
 ## Known issues
 
-- **Max 10 message blocks in Slack**.
+- **Max 10 message blocks in Slack message**.
 
   It just might take a while to catch up with all the audit logs from a current day once you deploy the Worker.
