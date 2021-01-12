@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "cf-workers-audit-logs",
+  "version": "1.0.0",
+  "description": "A Cloudflare Worker using KV and CRON trigger for checking and sending Audit Logs to Slack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Adam Janiš",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}

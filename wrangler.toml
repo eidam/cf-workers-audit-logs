@@ -1,0 +1,9 @@
+name = "cf-workers-audit-logs"
+workers_dev = true
+type = "javascript"
+
+[triggers]
+crons = ["* * * * *"]
+
+# uncomment if you are deploying manually
+# kv_namespaces = [{binding="KV_AUDIT_LOGS", id="your_kv_namespace_id"}]
