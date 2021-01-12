@@ -1,4 +1,4 @@
-# Cloudflare Worker - Status Page
+# Cloudflare Worker - Audit Logs
 
 A Cloudflare Worker using KV and CRON trigger for checking and sending Audit Logs to Slack. Using **Cloudflare Workers**, **CRON Triggers,** and **KV storage**. 🚀
 
